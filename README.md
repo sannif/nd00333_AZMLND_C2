@@ -92,7 +92,7 @@ We do a request to the pipeline endpoint to trigger a run. The run is scheduled 
 ## Project improvement
 As said in the project 1, the main improvement will be to pre-process the dataset in order to have balanced classes for the target. Regarding the architecture, the current one already seems optimal.
 
-## Screencast
+## Screen Recording
 We did a screencast of Azure ML Studio that shows the entire process of the working ML application, including a demonstration of:  
 * Working deployed ML model endpoint.
 * Deployed Pipeline
