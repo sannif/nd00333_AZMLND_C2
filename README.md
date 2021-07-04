@@ -4,6 +4,8 @@
 This project is part of the Udacity Azure ML Nanodegree. In this project, we build, deploy, and consume a model using Azure AutoML on the [Bank Marketing dataset](https://archive.ics.uci.edu/ml/datasets/bank+marketing). We also create, publish, and consume a pipeline.
 
 ## Architectural diagram
+The diagram below presents the architecture of the pipeline.  
+![diagram](https://github.com/sannif/nd00333_AZMLND_C2/blob/1f664584307e22ebc757c66dd5b06ef517962ed5/images/architecture_diagram.png)
 
 ## Steps
 ### AutoML Experiment
