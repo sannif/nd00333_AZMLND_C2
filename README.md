@@ -75,6 +75,9 @@ Below is the screenshot of the run details showing the run steps.
 We do a request to the pipeline endpoint to trigger a run.  
 ![schedule_run](https://github.com/sannif/nd00333_AZMLND_C2/blob/9ffcdd9ebb23ee390aa5d28dd1e0c9be233a57de/images/pipeline_scheduled_run.PNG)
 
+## Project improvement
+As said in the project 1, the main improvement will be to process the dataset in order to have balanced classes for the dataset. Regarding the architecture, the current seems already quite optimal.
+
 ## Screencast
 We did a screencast of Azure ML Studio that shows the entire process of the working ML application, including a demonstration of:  
 * Working deployed ML model endpoint.
