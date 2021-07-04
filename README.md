@@ -53,4 +53,30 @@ Using the Apache Benchmark command-line tool, we test the performance of our mod
 ![benchmark](https://github.com/sannif/nd00333_AZMLND_C2/blob/0bc031199a3d5abe84c3481f35c2eab3660da4e5/images/bench1.PNG)
 ![benchmark2](https://github.com/sannif/nd00333_AZMLND_C2/blob/0bc031199a3d5abe84c3481f35c2eab3660da4e5/images/bench2.PNG)
 
-### Create, Publish and Consume a Pipeline
+### Pipeline
+We use the jupyter notebook [notebook](https://github.com/sannif/nd00333_AZMLND_C2/blob/master/starter_files/aml-pipelines-with-automated-machine-learning-step.ipynb) to create a pipeline.  
+**Pipeline creation**  
+![pipeline_creation](https://github.com/sannif/nd00333_AZMLND_C2/blob/9ffcdd9ebb23ee390aa5d28dd1e0c9be233a57de/images/pipeline.PNG)
+
+**Pipeline endpoint**  
+![pipe_endpoint](https://github.com/sannif/nd00333_AZMLND_C2/blob/9ffcdd9ebb23ee390aa5d28dd1e0c9be233a57de/images/pipeline_endpoint.PNG)
+
+**Published pipeline overview**  
+The pipeline is *Active* with a REST endpoint.
+![published_pipeline](https://github.com/sannif/nd00333_AZMLND_C2/blob/9ffcdd9ebb23ee390aa5d28dd1e0c9be233a57de/images/pipeline_active.PNG)
+
+**Run details from Jupyter Notebook**  
+Below is the screenshot of the run details showing the run steps.  
+![run_details](https://github.com/sannif/nd00333_AZMLND_C2/blob/9ffcdd9ebb23ee390aa5d28dd1e0c9be233a57de/images/run_details.PNG)
+
+**Scheduled run**  
+We do a request to the pipeline endpoint to trigger a run.  
+![schedule_run](https://github.com/sannif/nd00333_AZMLND_C2/blob/9ffcdd9ebb23ee390aa5d28dd1e0c9be233a57de/images/pipeline_scheduled_run.PNG)
+
+## Screencast
+We did a screencast of Azure ML Studio that shows the entire process of the working ML application, including a demonstration of:  
+* Working deployed ML model endpoint.
+* Deployed Pipeline
+* Available AutoML Model
+* Successful API requests to the endpoint with a JSON payload  
+The screencast is available [here](https://youtu.be/BI4JYFJBqhk).
