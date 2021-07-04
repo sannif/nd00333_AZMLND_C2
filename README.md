@@ -79,4 +79,5 @@ We did a screencast of Azure ML Studio that shows the entire process of the work
 * Deployed Pipeline
 * Available AutoML Model
 * Successful API requests to the endpoint with a JSON payload  
+
 The screencast is available [here](https://youtu.be/BI4JYFJBqhk).
