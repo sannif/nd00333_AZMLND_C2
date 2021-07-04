@@ -28,13 +28,13 @@ The best model is an *XGBoost Classifier** with a *SparseNormalizer* processing.
 We deploy the best model using Azure Container Instance. We also enable authentication.
 
 ### Application Insights
-We enable applications insights on the deployed model.  
+We enable applications insights on the deployed model by executing the script [logs.py](https://github.com/sannif/nd00333_AZMLND_C2/blob/472f472549716c3ab5c017db923c19caf1ab9722/starter_files/logs.py)
 
 **Insights enabled**
 ![](https://github.com/sannif/nd00333_AZMLND_C2/blob/472f472549716c3ab5c017db923c19caf1ab9722/images/insights_enabled.PNG)
 
 **Logs**  
-We run the scripts [logs.py](https://github.com/sannif/nd00333_AZMLND_C2/blob/472f472549716c3ab5c017db923c19caf1ab9722/starter_files/logs.py) to retrieve some logs.  
+The the script [logs.py](https://github.com/sannif/nd00333_AZMLND_C2/blob/472f472549716c3ab5c017db923c19caf1ab9722/starter_files/logs.py) also permits to retrieve some logs.   
 ![logs](https://github.com/sannif/nd00333_AZMLND_C2/blob/472f472549716c3ab5c017db923c19caf1ab9722/images/logs.PNG)
 
 ### Swagger Documentation
